@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tpnewsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:name=".Profile.offlineActivity"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".NewsCategories.SavedNewsActivity"></activity>
+        <activity android:name=".LoadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Search.SearchActivity" />
+        <activity android:name=".Profile.ProfileActivity" />
+        <activity android:name=".NewsCategories.MainActivity" />
+        <activity android:name=".LoginRegister.RegisterActivity" />
+        <activity android:name=".LoginRegister.LoginActivity" />
+        <activity android:name=".NewsCategories.TechNewsActivity" />
+        <activity android:name=".NewsCategories.SportsNewsActivity" />
+        <activity android:name=".NewsCategories.ScienceNewsActivity" />
+        <activity android:name=".NewsCategories.HealthNewsActivity" />
+        <activity android:name=".NewsCategories.EntertainmentNewsActivity" />
+        <activity android:name=".NewsCategories.BusinessNewsActivity" />
+        <activity android:name=".NewsCategories.NewsSiteActivity" />
+
+        <receiver
+            android:name=".Notification.NotificationReceiver"
+            android:enabled="true" />
+    </application>
+
+</manifest>

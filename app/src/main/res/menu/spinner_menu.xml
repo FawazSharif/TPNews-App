@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Business"
+        android:title="Business"/>
+
+    <item
+        android:id="@+id/Entertainment"
+        android:title="Entertainment"/>
+
+    <item
+        android:id="@+id/Health"
+        android:title="Health"/>
+
+    <item
+        android:id="@+id/Sports"
+        android:title="Sports"/>
+
+    <item
+        android:id="@+id/Games"
+        android:title="games"/>
+
+    <item
+        android:id="@+id/Technology"
+        android:title="Technology"/>
+
+    <item
+        android:id="@+id/Science"
+        android:title="Science"/>
+
+    <item
+        android:id="@+id/Football"
+        android:title="Football"/>
+
+    <item
+        android:id="@+id/Basketball"
+        android:title="Basketball"/>
+
+    <item
+        android:id="@+id/Movies"
+        android:title="Movies"/>
+
+
+
+</menu>

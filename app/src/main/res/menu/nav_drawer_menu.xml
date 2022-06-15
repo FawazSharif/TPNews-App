@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/topStories"
+        android:icon="@drawable/ic_baseline_new_releases_24"
+        android:title="Top Stories"/>
+
+    <item
+        android:id="@+id/Business"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="Business News"/>
+
+    <item
+        android:id="@+id/Entertainment"
+        android:icon="@drawable/ic_baseline_ondemand_video_24"
+        android:title="Entertainment News"/>
+
+    <item
+        android:id="@+id/Health"
+        android:icon="@drawable/ic_baseline_healing_24"
+        android:title="Health News"/>
+
+    <item
+        android:id="@+id/Science"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Science"/>
+
+    <item
+        android:id="@+id/Sports"
+        android:icon="@drawable/ic_baseline_sports_volleyball_24"
+        android:title="Sports"/>
+
+    <item
+        android:id="@+id/Technology"
+        android:icon="@drawable/ic_baseline_smartphone_24"
+        android:title="Tech News"/>
+
+    <item
+        android:id="@+id/SavedNews"
+        android:icon="@drawable/ic_baseline_save_alt_24"
+        android:title="Saved News" />
+
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="Profile" />
+</menu>
